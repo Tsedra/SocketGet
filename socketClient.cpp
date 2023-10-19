@@ -126,7 +126,7 @@ bool SocketClient::superConnect(){
                 break;
             }
 
-            memset(response, '\0', sizeof(response));
+            //memset(response, '\0', sizeof(response));
             
             tempData.push_back(response);
            
